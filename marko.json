@@ -1,0 +1,12 @@
+{
+  "<Tab>": {
+    "renderer": "./src/tab.marko",
+    "@block": "boolean"
+  },
+  "<Tab.Item>": {
+    "renderer": "./src/tab.item.marko",
+    "@active": "boolean",
+    "@action": "boolean",
+    "@badge": "string"
+  }
+}
