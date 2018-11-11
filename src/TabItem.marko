@@ -1,5 +1,7 @@
+$ badgeAttrs = input.badge ? { class:'badge', 'data-badge': input.badge } : {};
+
 <li class={ 'tab-item':true, active:input.active, 'tab-action':input.action }>
-  <a body-only-if(!input.badge) href="#" class="badge" data-badge=input.badge>
+  <a ...badgeAttrs href="#">
     <${input.renderBody}/>
   </a>
 </li>
