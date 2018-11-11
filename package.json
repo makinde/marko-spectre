@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/makinde/marko-spectre/issues"
   },
-  "homepage": "https://github.com/makinde/marko-spectre#readme"
+  "homepage": "https://github.com/makinde/marko-spectre#readme",
+  "devDependencies": {
+    "np": "3.0.4"
+  }
 }
