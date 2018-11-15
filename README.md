@@ -27,37 +27,37 @@ When this module is installed in your project, it will export all the tags liste
 This project is in its infancy. Please contribute by adding new tags. Define attributes in `marko.json` and new tags in `/src`.
 
 __Elements__
-- [] Tables
-- [] Buttons
-- [] Forms
-- [] Icons
-- [] Labels
-- [] Code
-- [] Media
+- [ ] Tables
+- [ ] Buttons
+- [ ] Forms
+- [ ] Icons
+- [ ] Labels
+- [ ] Code
+- [ ] Media
 
 __Components__
-- [] Accordions
-- [] Avatars
-- [] Badges
-- [] Bars
-- [] Breadcrumbs
-- [] Cards
-- [] Chips
-- [] Empty states
-- [] Menu
-- [] Modals
-- [] Nav
-- [] Pagination
-- [] Panels
-- [] Popovers
-- [] Steps
+- [ ] Accordions
+- [ ] Avatars
+- [ ] Badges
+- [ ] Bars
+- [ ] Breadcrumbs
+- [ ] Cards
+- [ ] Chips
+- [ ] Empty states
+- [ ] Menu
+- [ ] Modals
+- [ ] Nav
+- [ ] Pagination
+- [ ] Panels
+- [ ] Popovers
+- [ ] Steps
 - [x] Tabs
-- [] Tiles
-- [] Toasts
-- [] Tooltips
+- [ ] Tiles
+- [ ] Toasts
+- [ ] Tooltips
 
 __Components__
-- [] Divider
+- [ ] Divider
 
 ## Contributing
 
