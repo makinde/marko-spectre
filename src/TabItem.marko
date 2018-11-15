@@ -1,7 +1,7 @@
 $ const badgeAttrs = input.badge ? { class:'badge', 'data-badge': input.badge } : {};
 
 <li class={ 'tab-item':true, active:input.active, 'tab-action':input.action }>
-  <a ...badgeAttrs href="#">
+  <a ...badgeAttrs href=(input.href || '#')>
     <${input.renderBody}/>
   </a>
 </li>
