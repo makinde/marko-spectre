@@ -1,7 +1,12 @@
 $ const badgeAttrs = input.badge ? { class:'badge', 'data-badge': input.badge } : {};
 
+class {
+  onSelect(event, el) {
+    this.emit('select');
+  }
+}
 <li class={ 'tab-item':true, active:input.active, 'tab-action':input.action }>
-  <a ...badgeAttrs href=(input.href || '#')>
+  <a ...badgeAttrs href=(input.href || '#') on-click('onSelect')>
     <${input.renderBody}/>
   </a>
 </li>
