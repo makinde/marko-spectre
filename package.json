@@ -1,6 +1,6 @@
 {
   "name": "marko-spectre",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A taglib to facilitate using spectre.css with markojs",
   "repository": {
     "type": "git",
