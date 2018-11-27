@@ -1,4 +1,19 @@
 {
+  "<Divider>": {
+    "renderer": "./src/Divider.marko",
+    "@align": {
+      "type": "string",
+      "enum": ["left", "right", "center"]
+    },
+    "@content": {
+      "type": "string"
+    },
+    "@orientation": {
+      "type": "string",
+      "enum": ["horizontal", "vertical"]
+    },
+    "@tag": "string"
+  },
   "<Tab>": {
     "renderer": "./src/Tab.marko",
     "@block": "boolean"

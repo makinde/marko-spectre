@@ -1,0 +1,15 @@
+$ {
+  const verticalOrientation = input.orientation === 'vertical';
+  const align = input.align || 'center';
+  const tag = input.tag || 'div';
+
+  const classObj = {
+    'divider': !verticalOrientation,
+    'divider-vert': verticalOrientation,
+    'text-left': align === 'left' && !verticalOrientation,
+    'text-center': align === 'center' && !verticalOrientation,
+    'text-right': align === 'right' && !verticalOrientation
+  }
+}
+
+<${tag} class=classObj data-content=input.content />

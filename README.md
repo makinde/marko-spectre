@@ -57,7 +57,7 @@ __Components__
 - [ ] Tooltips
 
 __Components__
-- [ ] Divider
+- [x] Divider
 
 ## Contributing
 
