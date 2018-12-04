@@ -1,3 +1,7 @@
+## Deprecated
+
+This project is no longer being maintained, but feel free to pick it up and drive it forward.
+
 # marko-spectre
 A taglib to facilitate using [spectre.css](https://www.npmjs.com/package/spectre.css) with [markojs](https://www.npmjs.com/package/marko)
 
